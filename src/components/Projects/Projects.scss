@@ -17,4 +17,62 @@
         margin: 0rem;
         padding-bottom: 1rem;
     }
+
+    &__container {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 1rem 0rem;
+    }
+
+    &__info {
+        text-align: center;
+
+        &-title {
+            color: darkred;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+        }
+    }
+
+    &__img {
+        display: flex;
+        justify-content: center;
+
+        & img {
+            width: 100%;
+            border-radius: 0.25rem;
+        }
+    }
+
+    &__tech {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        &-icon {
+            padding: 1rem;
+
+            &:hover {
+                animation: shake 0.5s infinite;
+            }
+        }
+
+        & img {
+            width: 3rem;
+        }
+    }
 }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
