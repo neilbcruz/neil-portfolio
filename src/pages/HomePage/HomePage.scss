@@ -1,0 +1,36 @@
+@use '../../styles/fonts' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    padding: 1rem;
+    text-align: center;
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+
+        & a {
+             
+            & h3 {
+                color: grey;
+                
+                &:hover {
+                    color: black;
+                }
+            }
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+}

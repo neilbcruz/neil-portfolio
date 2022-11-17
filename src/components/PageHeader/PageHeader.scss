@@ -1,0 +1,46 @@
+@use '../../styles/fonts' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 1rem;
+
+    &__top {
+        text-align: center;
+
+        & h1 {
+            letter-spacing: 0.5rem;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        & a {
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: whitesmoke;
+            }
+
+            &:hover {
+                color: black;
+            }
+        }
+
+
+    }
+}
+
+.active {
+    color: black !important;
+}

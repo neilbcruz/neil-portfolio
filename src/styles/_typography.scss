@@ -1,0 +1,50 @@
+@use './variables';
+@use './mixins';
+
+// FONT FAMILY //
+// WorkSans //
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../assets/fonts/WorkSans-Regular.woff2') format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../assets/fonts/WorkSans-Bold.woff2') format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../assets/fonts/WorkSans-Italic.woff2') format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+// Urbanist //
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../assets/fonts/Urbanist-Regular.woff2') format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../assets/fonts/Urbanist-Bold.woff2') format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../assets/fonts/Urbanist-Italic.woff2') format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
