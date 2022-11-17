@@ -15,5 +15,58 @@
     &__title {
         text-align: center;
         margin: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__box {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        padding-bottom: 1rem;
+
+        &-icon {
+            border-radius: 1rem;
+            box-shadow: 5px 5px 5px rgba(202, 206, 214, 0.3);
+            padding: 1rem;
+            &:hover {
+                animation: wiggle 2s linear infinite;
+            }
+        }
+
+        & img {
+            width: 3rem;
+        }
     }
 }
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+  
