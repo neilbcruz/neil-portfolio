@@ -1,17 +1,10 @@
 import './Projects.scss';
 
 import Backlog1 from '../../assets/images/backlogger-1.png';
-import Html from '../../assets/icons/html.png';
-import Css from '../../assets/icons/css.png';
 import Sass from '../../assets/icons/sass.png';
-import Javascript from '../../assets/icons/javascript.png';
 import ReactJs from '../../assets/icons/react.png';
 import NodeJs from '../../assets/icons/nodejs.png';
 import Express from '../../assets/icons/express.png';
-import Jwt from '../../assets/icons/JWT.png';
-import MySql from '../../assets/icons/mysql.png';
-import Git from '../../assets/icons/git.png';
-import Agile from '../../assets/icons/agile.png';
 import Axios from '../../assets/icons/axios.png';
 
 export default function Projects() {

@@ -22,6 +22,12 @@
         border-top: 1px solid black;
         border-bottom: 1px solid black;
         padding: 1rem 0rem;
+
+        & h2 {
+            padding-bottom: 0.5rem;
+        }
+
+        
     }
 
     &__info {
@@ -31,6 +37,10 @@
             color: darkred;
             font-weight: 600;
             letter-spacing: 0.1rem;
+        }
+
+        & p {
+            padding-bottom: 0.5rem;
         }
     }
 

@@ -4,6 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import About from '../../components/About/About';
 import Skills from '../../components/Skills/Skills';
 import Projects from '../../components/Projects/Projects';
+import Contacts from '../../components/Contacts/Contacts';
 
 export default function HomePage() {
     return (
@@ -19,13 +20,14 @@ export default function HomePage() {
                     <HashLink to='#projects'>
                         <h3>Projects</h3>
                     </HashLink>
-                    <HashLink to='#contact'>
-                        <h3>Contact</h3>
+                    <HashLink to='#contacts'>
+                        <h3>Contacts</h3>
                     </HashLink>
                 </div>
                 <About />
                 <Skills />
                 <Projects />
+                <Contacts />
             </div>
         </>
     )
