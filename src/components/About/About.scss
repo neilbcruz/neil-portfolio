@@ -9,5 +9,31 @@
 }
 
 .about {
-    padding: 1rem 0rem 100rem;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid lightgrey;
+
+    &__title {
+        text-align: center;
+        margin: 0rem;
+    }
+
+    &__info {
+        text-align: left;
+
+        &-name {
+            color: darkblue;
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+        }
+
+        &-text {
+            color: darkblue;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+        }
+
+        & p {
+            margin-bottom: 0.5rem;
+        }
+    }
 }

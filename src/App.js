@@ -8,7 +8,7 @@ import HobbiesPage from './pages/HobbiesPage/HobbiesPage';
 function App() {
   return (
     <>
-      <div className='App'>
+      <div className='app'>
         <Router>
           <PageHeader />
           <Routes>

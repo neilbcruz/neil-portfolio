@@ -2,6 +2,7 @@ import './HomePage.scss';
 import { HashLink } from 'react-router-hash-link';
 
 import About from '../../components/About/About';
+import Skills from '../../components/Skills/Skills';
 
 export default function HomePage() {
     return (
@@ -11,6 +12,9 @@ export default function HomePage() {
                     <HashLink to='#about'>
                         <h3>About</h3>
                     </HashLink>
+                    <HashLink to='#skills'>
+                        <h3>Skills</h3>
+                    </HashLink>
                     <HashLink to='#projects'>
                         <h3>Projects</h3>
                     </HashLink>
@@ -19,6 +23,7 @@ export default function HomePage() {
                     </HashLink>
                 </div>
                 <About />
+                <Skills />
             </div>
         </>
     )

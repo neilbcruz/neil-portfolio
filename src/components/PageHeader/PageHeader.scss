@@ -10,6 +10,9 @@
 
 .header {
     padding: 1rem;
+    background-image: url(../../assets/images/background-cog.webp);
+    background-size: cover;
+    // background-position: center;
 
     &__top {
         text-align: center;

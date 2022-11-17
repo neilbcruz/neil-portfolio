@@ -11,10 +11,14 @@
 .home {
     padding: 1rem;
     text-align: center;
+    background-image: url(../../assets/images/background-cog.webp);
+    background-position: center;
 
     &__nav {
         display: flex;
         flex-direction: column;
+        padding: 0rem 0rem 1rem;
+        border-bottom: 1px solid lightgrey;
 
         & a {
              
@@ -23,6 +27,7 @@
                 
                 &:hover {
                     color: black;
+                    text-transform: uppercase;
                 }
             }
 
