@@ -1,6 +1,6 @@
 import './Projects.scss';
 
-import Backlog1 from '../../assets/images/backlogger-1.png';
+import BacklogProfile from '../../assets/images/backlogger-profile-dark.png';
 import Sass from '../../assets/icons/sass.png';
 import ReactJs from '../../assets/icons/react.png';
 import NodeJs from '../../assets/icons/nodejs.png';
@@ -20,30 +20,33 @@ export default function Projects() {
                         <div className='projects__info'>
                             <p className='p-large'><span className='projects__info-title'>Backlogger</span> is a user app to help keep track of your backlog of games and as well as finished games. Search for games and add them to your profile where you can edit, delete, or check the information of games.</p>
                         </div>
-                        <div className='projects__img'>
-                            <img src={Backlog1} alt='backlogger image example' />
-                        </div>
-                        <div className='projects__tech'>
-                            <div className='projects__tech-icon'>
-                                <h4>React</h4>
-                                <img src={ReactJs} alt='react icon nucleus' />
+                        <div className='projects__space'>
+                            <div className='projects__img'>
+                                <img src={BacklogProfile} alt='backlogger image example' />
                             </div>
-                            <div className='projects__tech-icon'>
-                                <h4>Sass</h4>
-                                <img src={Sass} alt='sass icon circle pink fancy s' />
+                            <div className='projects__tech'>
+                                <div className='projects__tech-icon one'>
+                                    <h4>React</h4>
+                                    <img src={ReactJs} alt='react icon nucleus' />
+                                </div>
+                                <div className='projects__tech-icon two'>
+                                    <h4>Sass</h4>
+                                    <img src={Sass} alt='sass icon circle pink fancy s' />
+                                </div>
+                                <div className='projects__tech-icon three'>
+                                    <h4>Axios</h4>
+                                    <img src={Axios} alt='axios logo two half arrows pointing separate directions vertically' />
+                                </div>
+                                <div className='projects__tech-icon four'>
+                                    <h4>Node</h4>
+                                    <img src={NodeJs} alt='node icon text' />
+                                </div>
+                                <div className='projects__tech-icon five'>
+                                    <h4>Express</h4>
+                                    <img src={Express} alt='express icon the letter e and x' />
+                                </div>
                             </div>
-                            <div className='projects__tech-icon'>
-                                <h4>Axios</h4>
-                                <img src={Axios} alt='axios logo two half arrows pointing separate directions vertically' />
-                            </div>
-                            <div className='projects__tech-icon'>
-                                <h4>Node</h4>
-                                <img src={NodeJs} alt='node icon text' />
-                            </div>
-                            <div className='projects__tech-icon'>
-                                <h4>Express</h4>
-                                <img src={Express} alt='express icon the letter e and x' />
-                            </div>
+
                         </div>
                     </div>
                 </div>

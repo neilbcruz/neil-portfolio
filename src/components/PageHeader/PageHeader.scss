@@ -10,9 +10,19 @@
 
 .header {
     padding: 1rem;
-    background-image: url(../../assets/images/background-cog.webp);
+    background-color: rgb(252, 251, 252);
+    // background-image: url(../../assets/images/background-cog.webp);
     background-size: cover;
     // background-position: center;
+    // position: sticky;
+    // top: 0;
+
+    @include tablet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
 
     &__top {
         text-align: center;
