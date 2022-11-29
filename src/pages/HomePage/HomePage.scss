@@ -28,6 +28,16 @@
         padding: 0rem 0rem 1rem;
         border-bottom: 1px solid lightgrey;
 
+        @include tablet {
+            flex-direction: row;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        @include desktop {
+            gap: 6rem;
+        }
+
         & a {
              
             & h3 {
