@@ -1,0 +1,72 @@
+@use '../../styles/fonts' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anime {
+    padding: 1rem 0rem;
+    border-bottom: 1px solid lightgrey;
+
+    &__title {
+        text-align: center;
+        margin: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    &__info {
+        text-align: center;
+
+        &-name {
+            color: darkred;
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+        }
+
+        & p {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    &__container {
+        border-top: 1px solid lightgray;
+
+        @include tablet {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        & h2 {
+            padding-bottom: 0.5rem;
+        }
+
+        & img {
+            width: 100%;
+            border-radius: 0.25rem;
+
+            @include tablet {
+                width: 20rem;
+                height: 20rem;
+                border-radius: 0.25rem;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &__card {
+        padding: 1rem;
+
+        @include tablet {
+            width: 50%;
+        }
+
+        @include desktop {
+            width: 33%;
+        }
+    }
+}

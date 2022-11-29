@@ -11,10 +11,33 @@
 .hobbies {
     padding: 1rem;
     text-align: center;
+    background-image: url(../../assets/images/background-cog.webp);
+    background-position: bottom right;
+    background-size: cover;
+
+    @include tablet {
+        padding: 1rem 2rem;
+    }
+
+    @include desktop {
+        padding: 1rem 10rem;
+    }
 
     &__nav {
         display: flex;
         flex-direction: column;
+        padding: 0rem 0rem 1rem;
+        border-bottom: 1px solid lightgrey;
+
+        @include tablet {
+            flex-direction: row;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        @include desktop {
+            gap: 6rem;
+        }
 
         & a {
              
@@ -23,6 +46,7 @@
                 
                 &:hover {
                     color: black;
+                    text-transform: uppercase;
                 }
             }
 

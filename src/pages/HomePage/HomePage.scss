@@ -13,6 +13,7 @@
     text-align: center;
     background-image: url(../../assets/images/background-cog.webp);
     background-position: center;
+    background-size: cover;
 
     @include tablet {
         padding: 1rem 2rem;
