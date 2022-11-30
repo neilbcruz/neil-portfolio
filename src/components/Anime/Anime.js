@@ -8,7 +8,7 @@ export default function Anime() {
                     <h2>ANIME</h2>
                 </div>
                 <div className='anime__info'>
-                <p className='p-large'>I don't particularly have a genre preference as long as it has good <span className='anime__info-name'>STORY</span>, <span className='anime__info-name'>CHARACTER</span>, and <span className='anime__info-name'>ANIMATION</span>!</p>
+                <p className='p-large'>I don't particularly have a genre preference as long as it has good <span className='anime__info-name'>STORY</span>, <span className='anime__info-name'>CHARACTERS</span>, and <span className='anime__info-name'>ANIMATION</span>!</p>
                 </div>
                 <h3>Currently Watching</h3>
                 <div className='anime__container'>
