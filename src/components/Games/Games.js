@@ -15,19 +15,19 @@ export default function Games() {
                     <div className='games__card'>
                         <div className='games__card-info'>
                             <h3>Star Ocean: The Divine Force</h3>
-                            <img src={'https://pbs.twimg.com/media/FcsjXZIWYAYjlYm.jpg:large'} alt='Star Ocean 6 cover image' />
+                            <img src={'https://pbs.twimg.com/media/FcsjXZIWYAYjlYm.jpg:large'} alt='Star Ocean 6 cover' />
                         </div>
                     </div>
                     <div className='games__card'>
                         <div className='games__card-info'>
                             <h3>Pokemon Violet</h3>
-                            <img src={'https://assets-prd.ignimgs.com/2022/08/03/pokemon-violet-1659542326365.jpg'} alt='Pokemon Violet cover image' />
+                            <img src={'https://assets-prd.ignimgs.com/2022/08/03/pokemon-violet-1659542326365.jpg'} alt='Pokemon Violet cover' />
                         </div>
                     </div>
                     <div className='games__card'>
                         <div className='games__card-info'>
                             <h3>Xenoblade Chronicles 3</h3>
-                            <img src={'https://images.nintendolife.com/1b9a21fa2c5ad/xenoblade-chronicles-3.original.jpg'} alt='Xenoblade 3 cover image' />
+                            <img src={'https://images.nintendolife.com/1b9a21fa2c5ad/xenoblade-chronicles-3.original.jpg'} alt='Xenoblade 3 cover' />
                         </div>
                     </div>
                 </div>
