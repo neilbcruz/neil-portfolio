@@ -1,6 +1,8 @@
 # Portfolio Website
 
-This is a portfolio website for Neil Cruz
+This is a portfolio website for Neil Cruz.
+Check it out!
+neilbcruz.com
 
 ## Installation
 
