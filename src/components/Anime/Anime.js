@@ -15,37 +15,37 @@ export default function Anime() {
                     <div className='anime__card'>
                         <div className='anime__card-info'>
                             <h3>Gundam: The Witch from Mercury</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139274-nzHOkKMoCxvD.png'} alt='Gundam Witch cover image' />
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139274-nzHOkKMoCxvD.png'} alt='Gundam Witch cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
                             <h3>Chainsaw Man</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png'} alt='Chainsaw Man cover image' />
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png'} alt='Chainsaw Man cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
                             <h3>Blue Lock</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-4dVWMSHLpGf8.png'} alt='Blue Lock cover image' />
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-4dVWMSHLpGf8.png'} alt='Blue Lock cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
                             <h3>SpyxFamily Part 2</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142838-ECZSqfknAqAT.jpg'} alt='SpyxFamily Part 2 cover image' />
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142838-ECZSqfknAqAT.jpg'} alt='SpyxFamily Part 2 cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
                             <h3>Mob Psycho III</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140439-qpBzXkvVqSx3.jpg'} alt='Mob Psycho III cover image' />
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140439-qpBzXkvVqSx3.jpg'} alt='Mob Psycho III cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
                             <h3>Arknights: Prelude to Dawn</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140660-iJAS9omOJdzU.jpg'} alt='Arknights: Prelude to Dawn cover image' />
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140660-iJAS9omOJdzU.jpg'} alt='Arknights: Prelude to Dawn cover' />
                         </div>
                     </div>
                 </div>

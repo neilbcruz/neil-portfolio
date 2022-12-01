@@ -19,9 +19,9 @@ export default function Contacts() {
                     <p className='p-large'><span className='contacts__info-name'>Reach</span> Out!</p>
                 </div>
                 <div className='contacts__logos'>
-                    <img onClick={() => window.location = 'mailto:neilbcruz@gmail.com'} src={GoogleMail} />
-                    <img onClick={() => newTab('https://www.linkedin.com/in/neil-cruz/')} src={LinkedIn} />
-                    <img onClick={() => newTab('https://github.com/neilbcruz')} src={GitHub} />
+                    <img onClick={() => window.location = 'mailto:neilbcruz@gmail.com'} src={GoogleMail} alt='Google Mail Envelope' />
+                    <img onClick={() => newTab('https://www.linkedin.com/in/neil-cruz/')} src={LinkedIn} alt='Blue box with border radius and the letters i and n' />
+                    <img onClick={() => newTab('https://github.com/neilbcruz')} src={GitHub} alt='Black background with Github Cat in white' />
                 </div>
             </div>
         </>
