@@ -22,7 +22,7 @@ export default function Projects() {
                         </div>
                         <div className='projects__space'>
                             <div className='projects__img'>
-                                <img src={BacklogProfile} alt='backlogger image example' />
+                                <img src={BacklogProfile} alt='Profile page of the website with username and saved games' />
                             </div>
                             <div className='projects__tech'>
                                 <div className='projects__tech-icon one'>
