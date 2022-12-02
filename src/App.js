@@ -13,6 +13,7 @@ function App() {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Neil Cruz Portfolio</title>
+          <link rel="icon" href="./assets/icons/favicon.ico" />
           <link rel="canonical" href="https://neilbcruz.com/" />
           <meta name="description" content="Neil Cruz's Portfolio" />
         </Helmet>
