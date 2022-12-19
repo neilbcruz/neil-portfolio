@@ -20,8 +20,8 @@ export default function Games() {
                     </div>
                     <div className='games__card'>
                         <div className='games__card-info'>
-                            <h3>Pokemon Violet</h3>
-                            <img src={'https://assets-prd.ignimgs.com/2022/08/03/pokemon-violet-1659542326365.jpg'} alt='Pokemon Violet cover' />
+                            <h3>Crisis Core -FFVII- REUNION</h3>
+                            <img src={'https://image.api.playstation.com/vulcan/ap/rnd/202208/2505/DE9sevLlnfHm7vLrRwDFEZpO.png'} alt='Crisis Core REUNION cover' />
                         </div>
                     </div>
                     <div className='games__card'>
