@@ -14,14 +14,14 @@ export default function Games() {
                 <div className='games__container'>
                     <div className='games__card'>
                         <div className='games__card-info'>
-                            <h3>Star Ocean: The Divine Force</h3>
-                            <img src={'https://pbs.twimg.com/media/FcsjXZIWYAYjlYm.jpg:large'} alt='Star Ocean 6 cover' />
+                            <h3>Stranger of Paradise: FFO</h3>
+                            <img src={'https://assets-prd.ignimgs.com/2022/02/15/stranger-of-paradise-button-fn-1644883544038.jpg'} alt='FF Origins cover' />
                         </div>
                     </div>
                     <div className='games__card'>
                         <div className='games__card-info'>
-                            <h3>Crisis Core -FFVII- REUNION</h3>
-                            <img src={'https://image.api.playstation.com/vulcan/ap/rnd/202208/2505/DE9sevLlnfHm7vLrRwDFEZpO.png'} alt='Crisis Core REUNION cover' />
+                            <h3>Guilty Gear -STRIVE-</h3>
+                            <img src={'https://assets-prd.ignimgs.com/2021/04/09/guilty-gear-strive-1617935028610.jpg'} alt='GG STRIVE cover' />
                         </div>
                     </div>
                     <div className='games__card'>

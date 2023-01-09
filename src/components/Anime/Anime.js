@@ -14,14 +14,14 @@ export default function Anime() {
                 <div className='anime__container'>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>Gundam: The Witch from Mercury</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139274-nzHOkKMoCxvD.png'} alt='Gundam Witch cover' />
+                            <h3>Vinland Saga Season 2</h3>
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136430-f8Iza5GEynRW.jpg'} alt='Vinland Saga cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>Chainsaw Man</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png'} alt='Chainsaw Man cover' />
+                            <h3>NieR:Automata Ver1.1a</h3>
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145665-kiAZX3DsbBnl.jpg'} alt='NieR:Automata Ver1.1a cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
@@ -32,8 +32,8 @@ export default function Anime() {
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>SpyxFamily Part 2</h3>
-                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142838-ECZSqfknAqAT.jpg'} alt='SpyxFamily Part 2 cover' />
+                            <h3>TRIGUN STAMPEDE</h3>
+                            <img src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151040-zQEvp8bCA987.png'} alt='TRIGUN STAMPEDE cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
