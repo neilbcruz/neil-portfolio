@@ -26,8 +26,8 @@ export default function Games() {
                     </div>
                     <div className='games__card'>
                         <div className='games__card-info'>
-                            <h3>Xenoblade Chronicles 3</h3>
-                            <img src={'https://images.nintendolife.com/1b9a21fa2c5ad/xenoblade-chronicles-3.original.jpg'} alt='Xenoblade 3 cover' />
+                            <h3>Fire Emblem ENGAGE</h3>
+                            <img src={'https://assets.nintendo.com/image/upload/ar_16:9,c_limit,w_656/b_white/f_auto/q_auto/ncom/en_US/games/switch/f/fire-emblem-engage-switch/hero'} alt='Xenoblade 3 cover' />
                         </div>
                     </div>
                 </div>
