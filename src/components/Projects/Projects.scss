@@ -9,7 +9,7 @@
 }
 
 .projects {
-    padding: 1rem 0rem;
+    padding: 1rem 0rem 0rem;
     border-bottom: 1px solid lightgrey;
 
     &__title {
@@ -18,15 +18,13 @@
         padding-bottom: 1rem;
     }
 
-    &__container {
+    &__card {
         border-top: 1px dashed gray;
-        padding: 1rem 0rem 0rem;
+        padding: 1rem 0rem 1rem;
 
         & h2 {
             padding-bottom: 0.5rem;
-        }
-
-        
+        }   
     }
 
     &__info {
@@ -38,8 +36,16 @@
             letter-spacing: 0.1rem;
         }
 
+        &-link {
+            color: darkred;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            cursor: pointer;
+        }
+
         & p {
             padding-bottom: 0.5rem;
+            text-align: left;
         }
     }
 
@@ -51,14 +57,10 @@
         }
     }
 
-    &__img {
+    &__media {
         display: flex;
         justify-content: center;
         width: 100%;
-
-        &-show {
-            display: flex;
-        }
 
         @include desktop {
             width: 50%;
@@ -66,15 +68,24 @@
             // gap: 0.25rem;
         }
 
+        &-show {
+            display: flex;
+        }
+
+        & iframe {
+            width: 100%;
+        }
+
         & img {
             width: 100%;
             border-radius: 0.25rem;
+            cursor: pointer;
         }
     }
 
     &__tech {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
 
         @include desktop {
