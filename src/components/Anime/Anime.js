@@ -17,26 +17,20 @@ export default function Anime() {
                 <div className='anime__container'>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>VINLAND SAGA SEASON 2</h3>
-                            <img onClick={() => newTab('https://anilist.co/anime/136430/VINLAND-SAGA-SEASON-2')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136430-f8Iza5GEynRW.jpg'} alt='VINLAND SAGA SEASON 2 cover' />
+                            <h3>Jujutsu Kaisen 2nd Season</h3>
+                            <img onClick={() => newTab('https://anilist.co/anime/145064/Jujutsu-Kaisen-2nd-Season')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145064-5fa4ZBbW4dqA.jpg'} alt='JJK SEASON 2 cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>TRIGUN STAMPEDE</h3>
-                            <img onClick={() => newTab('https://anilist.co/anime/151040/TRIGUN-STAMPEDE')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151040-zQEvp8bCA987.png'} alt='TRIGUN STAMPEDE cover' />
+                            <h3>Mushoku Tensei II</h3>
+                            <img onClick={() => newTab('https://anilist.co/anime/146065/Mushoku-Tensei-II-Isekai-Ittara-Honki-Dasu')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146065-1hTpwsW2fQIA.jpg'} alt='Mushoku Tensei II cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>Blue Lock</h3>
-                            <img onClick={() => newTab('https://anilist.co/anime/137822/Blue-Lock')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-4dVWMSHLpGf8.png'} alt='Blue Lock cover' />
-                        </div>
-                    </div>
-                    <div className='anime__card'>
-                        <div className='anime__card-info'>
-                            <h3>NieR:Automata Ver1.1a</h3>
-                            <img onClick={() => newTab('https://anilist.co/anime/145665/NieRAutomata-Ver11a')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145665-kiAZX3DsbBnl.jpg'} alt='NieR:Automata Ver1.1a cover' />
+                            <h3>Rurouni Kenshin 2023</h3>
+                            <img onClick={() => newTab('https://anilist.co/anime/142877/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-2023')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142877-wNH2KPu6LYF4.jpg'} alt='Kenshin 2023 cover' />
                         </div>
                     </div>
                 </div>
