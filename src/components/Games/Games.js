@@ -18,26 +18,20 @@ export default function Games() {
                 <div className='games__container'>
                     <div className='games__card'>
                         <div className='games__card-info'>
-                            <h3>Stranger of Paradise: FFO</h3>
-                            <img onClick={() => newTab('https://www.square-enix-games.com/sopffo/en-us/')} src={'https://assets-prd.ignimgs.com/2022/02/15/stranger-of-paradise-button-fn-1644883544038.jpg'} alt='FF Origins cover' />
+                            <h3>Final Fantasy XVI</h3>
+                            <img onClick={() => newTab('https://na.finalfantasyxvi.com/')} src={'https://assets-prd.ignimgs.com/2021/08/05/final-fantasy-xvi-button-1628180674117.jpg'} alt='FF Origins cover' />
                         </div>
                     </div>
                     <div className='games__card'>
                         <div className='games__card-info'>
-                            <h3>Guilty Gear -STRIVE-</h3>
-                            <img onClick={() => newTab('https://www.guiltygear.com/ggst/en/')} src={'https://assets-prd.ignimgs.com/2021/04/09/guilty-gear-strive-1617935028610.jpg'} alt='GG STRIVE cover' />
+                            <h3>Street Fighter 6</h3>
+                            <img onClick={() => newTab('https://www.streetfighter.com/6')} src={'https://image.api.playstation.com/vulcan/ap/rnd/202211/1407/XFU0aPBvtm3W2od1ZvhByAOv.png'} alt='SF6 cover' />
                         </div>
                     </div>
                     <div className='games__card'>
                         <div className='games__card-info'>
-                            <h3>Fire Emblem ENGAGE</h3>
-                            <img onClick={() => newTab('https://www.nintendo.com/en-ca/store/products/fire-emblem-engage-switch/')} src={'https://assets.nintendo.com/image/upload/ar_16:9,c_limit,w_656/b_white/f_auto/q_auto/ncom/en_US/games/switch/f/fire-emblem-engage-switch/hero'} alt='Xenoblade 3 cover' />
-                        </div>
-                    </div>
-                    <div className='games__card'>
-                        <div className='games__card-info'>
-                            <h3>Hogwarts Legacy</h3>
-                            <img onClick={() => newTab('https://www.hogwartslegacy.com/en-ca')} src={'https://assets-prd.ignimgs.com/2022/05/24/hogwarts-legacy-button-fin-1653421326559.jpg'} alt='Hogwarts Legacy cover' />
+                            <h3>Armored Core VI Fires of Rubicon</h3>
+                            <img onClick={() => newTab('https://en.bandainamcoent.eu/armored-core/armored-core-vi-fires-of-rubicon')} src={'https://image.api.playstation.com/vulcan/ap/rnd/202304/2800/09d5b936da100fb0b96a2cdaa96a835e143b41b3e3ae0054.png'} alt='AC6 cover' />
                         </div>
                     </div>
                 </div>
