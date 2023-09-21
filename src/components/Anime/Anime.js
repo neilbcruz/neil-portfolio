@@ -23,8 +23,8 @@ export default function Anime() {
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>Mushoku Tensei II</h3>
-                            <img onClick={() => newTab('https://anilist.co/anime/146065/Mushoku-Tensei-II-Isekai-Ittara-Honki-Dasu')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146065-1hTpwsW2fQIA.jpg'} alt='Mushoku Tensei II cover' />
+                            <h3>Demon Slayer: Swordsmith Village Arc</h3>
+                            <img onClick={() => newTab('https://anilist.co/anime/145139/Kimetsu-no-Yaiba-Katanakaji-no-Satohen')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145139-rRimpHGWLhym.png'} alt='Mushoku Tensei II cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
