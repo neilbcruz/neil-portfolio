@@ -13,15 +13,11 @@ import HobbiesPage from './pages/HobbiesPage/HobbiesPage';
 // ReactGA.initialize(TRACKING_ID);
 
 // GA 4 //
-import ReactGA from 'react-ga4';
+import ReactGA from 'react-ga';
 const MEASUREMENT_ID = 'G-3ZNEXY83BD';
 ReactGA.initialize(MEASUREMENT_ID)
 
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
   return (
     <>
       <div className='app'>
