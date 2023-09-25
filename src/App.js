@@ -6,7 +6,16 @@ import PageHeader from './components/PageHeader/PageHeader';
 import HomePage from './pages/HomePage/HomePage';
 import HobbiesPage from './pages/HobbiesPage/HobbiesPage';
 
+// Google Analytics //
+import ReactGA from 'react-ga';
+const TRACKING_ID = 'G-3ZNEXY83BD';
+ReactGA.initialize(TRACKING_ID);
+
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <>
       <div className='app'>
