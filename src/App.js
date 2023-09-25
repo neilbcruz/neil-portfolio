@@ -8,9 +8,14 @@ import HomePage from './pages/HomePage/HomePage';
 import HobbiesPage from './pages/HobbiesPage/HobbiesPage';
 
 // Google Analytics //
-import ReactGA from 'react-ga';
-const TRACKING_ID = 'G-3ZNEXY83BD';
-ReactGA.initialize(TRACKING_ID);
+// import ReactGA from 'react-ga';
+// const TRACKING_ID = 'G-3ZNEXY83BD';
+// ReactGA.initialize(TRACKING_ID);
+
+// GA 4 //
+import ReactGA from 'react-ga4';
+const MEASUREMENT_ID = 'G-3ZNEXY83BD';
+ReactGA.initialize(MEASUREMENT_ID)
 
 function App() {
   useEffect(() => {
