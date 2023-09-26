@@ -1,7 +1,6 @@
 import './App.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet'
-import { useEffect } from 'react';
 
 import PageHeader from './components/PageHeader/PageHeader';
 import HomePage from './pages/HomePage/HomePage';
@@ -14,14 +13,14 @@ import HobbiesPage from './pages/HobbiesPage/HobbiesPage';
 
 // GA 4 //
 import ReactGA from 'react-ga4';
-const MEASUREMENT_ID = 'G-3ZNEXY83BD';
-ReactGA.initialize(MEASUREMENT_ID)
+ReactGA.initialize('G-3ZNEXY83BD')
+
+ReactGA.send({
+    hitType: 'pageview',
+    page: window.location.pathname,
+});
 
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
   return (
     <>
       <div className='app'>

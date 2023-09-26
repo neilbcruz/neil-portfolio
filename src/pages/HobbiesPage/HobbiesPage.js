@@ -5,6 +5,15 @@ import Games from '../../components/Games/Games';
 import Anime from '../../components/Anime/Anime';
 import Contacts from '../../components/Contacts/Contacts';
 
+// GA 4 //
+import ReactGA from 'react-ga4';
+ReactGA.initialize('G-3ZNEXY83BD')
+
+ReactGA.send({
+    hitType: 'pageview',
+    page: window.location.pathname,
+});
+
 export default function HobbiesPage() {
     return (
         <>
