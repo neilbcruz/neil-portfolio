@@ -1,10 +1,20 @@
 import './HomePage.scss';
 import { HashLink } from 'react-router-hash-link';
+// import { useEffect } from 'react';
 
 import About from '../../components/About/About';
 import Skills from '../../components/Skills/Skills';
 import Projects from '../../components/Projects/Projects';
 import Contacts from '../../components/Contacts/Contacts';
+
+// GA 4 //
+import ReactGA from 'react-ga4';
+ReactGA.initialize('G-3ZNEXY83BD')
+
+ReactGA.send({
+    hitType: 'pageview',
+    page: window.location.pathname,
+});
 
 export default function HomePage() {
     return (
