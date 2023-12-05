@@ -23,14 +23,14 @@ export default function Anime() {
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>Demon Slayer: Swordsmith Village Arc</h3>
-                            <img onClick={() => newTab('https://anilist.co/anime/145139/Kimetsu-no-Yaiba-Katanakaji-no-Satohen')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145139-rRimpHGWLhym.png'} alt='Mushoku Tensei II cover' />
+                            <h3>Arknights: PERISH IN FROST</h3>
+                            <img onClick={() => newTab('https://anilist.co/anime/158895/Arknights-Touin-Kiro')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158895-QPy3ElZBKziT.jpg'} alt='Arknights 2 cover' />
                         </div>
                     </div>
                     <div className='anime__card'>
                         <div className='anime__card-info'>
-                            <h3>Rurouni Kenshin 2023</h3>
-                            <img onClick={() => newTab('https://anilist.co/anime/142877/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-2023')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142877-wNH2KPu6LYF4.jpg'} alt='Kenshin 2023 cover' />
+                            <h3>Shangri-La Frontier</h3>
+                            <img onClick={() => newTab('https://anilist.co/anime/151970/ShangriLa-Frontier')} src={'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151970-qFKtRhOaSqa0.jpg'} alt='Kenshin 2023 cover' />
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url("../assets/fonts/WorkSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "WorkSans";
+  src: url("../assets/fonts/WorkSans-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "WorkSans";
+  src: url("../assets/fonts/WorkSans-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Urbanist Regular";
+  src: url("../assets/fonts/Urbanist-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Urbanist Bold";
+  src: url("../assets/fonts/Urbanist-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Urbanist Italic";
+  src: url("../assets/fonts/Urbanist-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  font-family: "Urbanist Regular", sans-serif;
+}
+
+h1 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+p {
+  font-size: 0.813rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+}
+
+h3,
+link,
+button,
+.label {
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  h3,
+  link,
+  button,
+  .label {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+}
+
+h4 {
+  font-size: 0.6875rem;
+  line-height: 1rem;
+}
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+}
+
+.p-large {
+  font-size: 0.9375rem;
+  line-height: 1.625rem;
+}
+@media screen and (min-width: 768px) {
+  .p-large {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+}
+
+.p-medium {
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .p-medium {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+}
+
+.p-small {
+  font-size: 0.6875rem;
+  line-height: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .p-small {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projects {
+  padding: 1rem 0rem 0rem;
+  border-bottom: 1px solid lightgrey;
+}
+.projects__title {
+  text-align: center;
+  margin: 0rem;
+  padding-bottom: 1rem;
+}
+.projects__card {
+  border-top: 1px dashed gray;
+  padding: 1rem 0rem 1rem;
+}
+.projects__card h2 {
+  padding-bottom: 0.5rem;
+}
+.projects__info {
+  text-align: center;
+}
+.projects__info-title {
+  color: darkred;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.projects__info-link {
+  color: darkred;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.projects__info p {
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+@media screen and (min-width: 1280px) {
+  .projects__space {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+.projects__media {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media screen and (min-width: 1280px) {
+  .projects__media {
+    width: 50%;
+    justify-content: space-between;
+  }
+}
+.projects__media-show {
+  display: flex;
+}
+.projects__media iframe {
+  width: 100%;
+}
+.projects__media img {
+  width: 100%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.projects__tech {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+@media screen and (min-width: 1280px) {
+  .projects__tech {
+    width: 50%;
+    padding: 2rem;
+  }
+}
+.projects__tech-icon {
+  padding: 1rem 0.25rem;
+}
+.projects__tech-icon:hover {
+  animation: shake 0.5s infinite;
+}
+.projects__tech-icon.two, .projects__tech-icon.four {
+  align-self: flex-end;
+}
+.projects__tech img {
+  width: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .projects__tech img {
+    width: 4rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .projects__tech img {
+    width: 6rem;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}/*# sourceMappingURL=Projects.css.map */
